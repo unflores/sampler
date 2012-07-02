@@ -53,7 +53,7 @@ class Sampler
   # Goes through all of the products and creates a harmonization for each
   def create_harmonizations
     @products.each do|product|
-  		create_harmonization(product.id, product.city_id)
+      create_harmonization(product.id, product.city_id)
     end
   end
 end
